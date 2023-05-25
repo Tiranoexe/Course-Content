@@ -1,0 +1,38 @@
+/* Write your code here: */
+
+/* Group : Apply to both selectors */
+
+h1, h2 {
+  color: blueviolet
+}
+
+/* Child : Apply to direct child of left side */
+
+.box > p {
+  color: firebrick;
+}
+
+/* Descendant : Apply to a descendent of left side*/
+
+.box li {
+  color: blue;
+}
+
+/* Chaining : Apply whe ALL selectors are true */
+
+/*  .big => classes
+    #title => id
+    h1 => elements */
+/*  Always start with the element and then the class or the id 
+    It goes without spacelines*/
+
+li.done{
+  color: seagreen;
+}
+
+/* Descendant + Chaining */
+
+ul p.done {
+  font-size: .5rem;
+}
+
